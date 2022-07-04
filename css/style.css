@@ -1,0 +1,66 @@
+/* ESTILOS GERAIS */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+header h1, main, section {
+  margin: 25px 100px;
+
+}
+/* MAIN */
+main form #nome {
+  width: 97%;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 2px 15px;
+}
+
+main form textarea {
+  width: 97%;
+  resize: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 15px 15px;
+}
+
+main form #cor-texto,
+main form #cor-fundo {
+  margin-top: 5px;
+  padding: 0 15px;
+}
+
+main form button {
+  height: 40px;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 2px 10px;
+}
+main hr {
+  width: 100%;
+}
+/* SECTION */
+section div {
+  width: 90%;
+  border: 1px solid #aaa;
+  padding: 5px 5%;
+}
+
+section div #nome-post {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-weight: bolder;
+  font-size: 18px;
+}
+section div #comentario-post {
+  font-size: 15px;
+}
+
+section div hr {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Breno Silva Mourão">
+  <title>Atividade Principal - 21</title>
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Página de comentários</h1>
+      <hr>
+    </div>
+  </header>
+  <main>
+    <form onsubmit="return false;">
+      <label>Nome:</label><br>
+      <input type="text" placeholder="Nome do usuário" id="nome">
+      <br><br>
+      <label>Comentário:</label><br>
+      <textarea name="comentario" id="comentario" rows="5" placeholder="Digite aqui seu comentário..."></textarea>
+      <br><br>
+      <label>Formatação:</label><br>
+      <div>
+        <label>Cor do texto:</label>
+        <input type="color" id="cor-texto" value="#16161d">
+        <label>Cor do fundo:</label>
+        <input type="color" id="cor-fundo" value="#ffffff">
+      </div><br>
+      <button type="submit" onclick="post();">Enviar</button><br><br>
+      <hr>
+    </form>
+  </main>
+  <section id="post"></section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
