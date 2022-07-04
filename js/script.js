@@ -8,4 +8,7 @@ function post() {
 
   // output post
   post.innerHTML += '<div style="color: '+ corDeTexto + '; background-color: ' + corDeFundo + ';"><p id="nome-post">' + nome + '<hr></p><p id="comentario-post">' + comentario + '</p></div>';
+
+  documento.getElementById('nome').value = '';
+  documento.getElementById('comentario').value = '';
 }
